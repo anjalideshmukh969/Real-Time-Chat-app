@@ -66,7 +66,7 @@ To run this project, you will need to add the following environment variables to
 Clone the project
 
 ```bash
-  git clone https://github.com/ansonbenny/Social-Media
+  git clone https://github.com/anjalideshmukh969/RTC
 ```
 
 ##To Start BackEnd
@@ -108,11 +108,3 @@ Start
 ```bash
   npm run dev
 ```
-
-## Demo
-
-[Live](https://softchat.online/)
-
-## 🔗 Links
-
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anson-benny/)
