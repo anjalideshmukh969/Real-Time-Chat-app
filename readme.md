@@ -1,6 +1,6 @@
 # Social Media
 
-This project is a Social Media platform, It's made for live private/group chat & Video/Audio Call, project allow to share stories. Socket.io/WebSocket used for live chat , WebRTC / PeerJs (for peer 2 peer) used for live Video/Audio Calls.
+This project is a Social Media platform, It's made for live private/group chat & Video/Audio Call, project allow to share stories. Socket.io/WebSocket used for live chat ,WebRTC / PeerJs (for peer 2 peer) used for live Video/Audio Calls.
 
 ## Features
 
