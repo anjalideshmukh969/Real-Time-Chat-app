@@ -16,5 +16,4 @@ export const connectDB = async (callback) => {
     return callback(undefined, err);
   }
 };
-
 export { db };
