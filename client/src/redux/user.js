@@ -1,11 +1,10 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import instance from "../lib/axios";
 
-export const fetchUser = createAsyncThunk("user/fetchUser", async (signal) => {
+export const fetchUser = createAsyncThunk("user/fetchUser", async (_,signal) => {
   let response = await instance.get("/user/checkLogged", {
     signal,
   });
-
   return response?.data?.data;
 });
 

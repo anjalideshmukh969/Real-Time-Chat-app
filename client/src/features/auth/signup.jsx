@@ -48,7 +48,8 @@ const SignUp = () => {
       } catch (err) {
         setState((state) => ({
           ...state,
-          error: "Failing Google Sign Up",
+           error: err?.response?.data?.message || "Something went wrong",
+    otp: state?.otp?.sent ? { sent: true } : null
         }));
       }
     },

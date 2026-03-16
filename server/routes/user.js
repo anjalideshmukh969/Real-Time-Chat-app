@@ -59,9 +59,9 @@ const CheckLogged = (req, res, next) => {
 };
 
 router.get("/checkLogged", CheckLogged, (req, res) => {
-  res.status(405).json({
-    status: 405,
-    message: "User not logged",
+  res.status(200).json({
+    status: 200,
+    message: "User logged in",
   });
 });
 
