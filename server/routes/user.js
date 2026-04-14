@@ -16,7 +16,6 @@ const CheckLogged = (req, res, next) => {
     if (decode?._id?.length === 24) {
       try {
         let userData = await user.get_user(decode?._id);
-
         if (userData) {
           if (req?.query?.next) {
             req.query.userId = userData?._id?.toString?.();
